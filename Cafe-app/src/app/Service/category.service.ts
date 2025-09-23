@@ -9,7 +9,7 @@ import { Observable } from 'rxjs';
 export class CategoryService {
 
   cData:Category = new Category()
-  readonly ApiUrl='https://cafe-mgm-a7h7a2bpbkekgxh4.eastasia-01.azurewebsites.net/api/Categories';
+  readonly ApiUrl='https://cafe-mgm-fvgqcgcphwfphpbk.southeastasia-01.azurewebsites.net/api/Categories';
 
   cList:Category[];
 
