@@ -17,7 +17,7 @@ export interface CartItem {
 })
 export class CartService {
 
-  private apiUrl = 'https://cafe-mgm-a7h7a2bpbkekgxh4.eastasia-01.azurewebsites.net/api/Carts';  // Replace with your actual API URL
+  private apiUrl = 'https://cafe-mgm-fvgqcgcphwfphpbk.southeastasia-01.azurewebsites.net/api/Carts';  // Replace with your actual API URL
   id:number;
 
   constructor(private http: HttpClient) {
