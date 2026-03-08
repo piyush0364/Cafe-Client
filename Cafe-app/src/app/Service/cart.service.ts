@@ -28,7 +28,7 @@ export class CartService {
   
 
   getCartItems(userId: number): Observable<CartItem[]> {
-    const apiUrl = `https://cafe-mgm-a7h7a2bpbkekgxh4.eastasia-01.azurewebsites.net/api/cartitem/${userId}`;
+    const apiUrl = `https://cafe-mgm-fvgqcgcphwfphpbk.southeastasia-01.azurewebsites.net/api/cartitem/${userId}`;
     return this.http.get<CartItem[]>(apiUrl).pipe(
       catchError(this.handleError<CartItem[]>('getCartItems', []))
     );
